@@ -1,0 +1,7 @@
+[build]
+  base = "studio-microbio"
+  command = "npm run build"
+  publish = "studio-microbio/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
