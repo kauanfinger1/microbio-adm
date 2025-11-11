@@ -25,16 +25,5 @@ export const novidades = defineType({
         title: 'Capa Notícia',
         type: 'image',
     }),
-    defineField ({
-        name: 'link',
-        title: 'Link da Notícia',
-        type: 'url',
-    }),
-    defineField ({
-        name: 'publicar',
-        title: 'Publicar?', 
-        type: 'boolean',
-        initialValue: false,
-    }),
-    ],
+  ],
 })
